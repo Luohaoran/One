@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person() {
+        this.sex="男";
+        this.name="罗名扬"
+    }
+    var p1=new Person();
+    console.log(p1);
+    p1.age=15;
+//
+    var p2=new Person();
+    console.log(p1==p2);//false
+
+    console.log(p1.__proto__===p2.__proto__);
+
+    Person.prototype.address="成都";
+    console.log(p1.address);
+    console.log(p2.address);
+
+
+    function Dog() {
+        this.sound="汪汪";
+    }
+    var d1=new Dog();
+    console.log(d1.address);//undefined
+
+    Object.prototype.color="white";
+
+    console.log(p1.color);
+    console.log(d1.color);
+
+    Person.iq=false;
+    console.log(typeof Person);
+
+    console.log(Person.iq);//false
+
+    console.log(p1.iq);//false undefined
+
+
+
+</script>
+</body>
+</html>

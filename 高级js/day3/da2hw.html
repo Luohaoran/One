@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // (function () {
+    //     var lightBox={
+    //         arr:[],
+    //         leftBtn:document.createElement("div"),//左
+    //         rightBtn:document.createElement("div"),//右
+    //         index:0,
+    //         show:function () {
+    //             //图片的展示方法
+    //         },
+    //         closePic:function () {
+    //             //图片的关闭方法
+    //         },
+    //         toggle:function () {
+    //             //上一张下一张的切换方法
+    //         },
+    //         fadein:function () {
+    //
+    //         },
+    //         init:function () {
+    //             //添加按钮
+    //             //添加绑定事件
+    //         }
+    //     };
+    //     lightBox.init();
+    //     window.lightbox=lightBox
+    // })();
+    // lightbox.show();
+    // lightbox.closePic();
+    (function () {
+        function lightBox() {
+            this.arr=[];
+            this.left=document.createElement("div");
+            this.right=document.createElement("div");
+            this.index=0;
+            this.show=function () {
+
+            };
+            this.closePic=function () {
+
+            };
+            this.toggle=function () {
+
+            };
+            this.fadein=function () {
+
+            };
+        }
+        function init() {
+            var lightbox=new lightBox();
+            div.onclick=lightbox.toggle();
+            div.onclick=lightbox.show();
+        }
+        window.lightBox={
+            init:init()
+        };
+    })();
+    lightBox.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="mymove('jump')">跳</button>
+<button onclick="mymove('run')">跑</button>
+<button onclick="mymove('walk')">走</button>
+<script>
+    var obj={
+        method1:function () {
+
+        },
+        method2:function () {
+
+        },
+        method3:function () {
+
+        },
+    };
+    // var a=1;
+    // if (a==1){
+    //     obj.method1()
+    // } else if (a==2){
+    //     obj.method2()
+    // } else if (a==2){
+    //     obj.method3()
+    // }
+    //
+    //
+    // //
+    // var a="method1";
+    // obj[a]();
+    var obj={
+        jump:function () {
+         console.log("跳")
+        },
+        run:function () {
+            console.log("跑")
+        },
+        walk:function () {
+            console.log("走")
+        }
+    };
+    function mymove(data) {
+        console.log(data);
+        obj[data]();
+    }
+</script>
+</body>
+</html>

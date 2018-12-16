@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    * in  --属性 in  对象  ----对象能够访问得到（自己/原型链）
+    * 对象.hasOwnProperty("属性")---自身的属性
+    *
+    * instanceof--判断对象是否某个构造函数的实例对象
+    * */
+
+    var obj=new Object();
+    obj.name="张三";
+
+    obj.name=null;
+
+//    delete obj.name;
+
+    console.log(obj);
+//    obj=null;
+//    console.log(obj);
+
+    var d=new Date();
+
+//    function  Date() {
+//        this.getFullYear=function () {
+//
+//        }
+//    }
+
+//    d.formateDate()//XXXX-XX-XX
+    
+</script>
+</body>
+</html>

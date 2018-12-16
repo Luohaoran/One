@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // var a=10;//全局
+    // function test() {
+    //     var b=10;//局部变量
+    //     c=20;
+    //     console.log(c);
+    //     console.log(a);
+    // }
+    // test();
+    // console.log(c);
+    // console.log(b);
+
+
+    //
+    // function plane() {
+    //
+    // }
+    // function createPlane() {
+    //     var list=new Array();
+    //     var p=new plane();
+    //     list.push(p);
+    //     return list;
+    // }
+    // function movePlane() {
+    //
+    // }
+
+
+
+
+
+    // function closure() {
+    //     var a=10;
+    //     function add() {
+    //         a++;
+    //         console.log(a);
+    //     }
+    //     return add;
+    // }
+    //
+    // var addFunction=closure();
+    // addFunction();
+    // addFunction();
+    // addFunction();
+    // addFunction();
+
+    function plane() {
+
+    }
+    //创建飞机
+    function createPlane() {
+        var list=new Array();
+        function addPlane() {
+            var p=new plane();
+            list.push(p);
+            // console.log(list);
+        }
+
+        function getList() {
+            var returnList=new Array();
+            for (var i=0;i<list.length;i++){
+                returnList.push(list[i]);
+            }
+            console.log("里面的");
+            console.log(list);
+            return returnList;
+        }
+        return {add:addPlane,getList:getList};
+    }
+    var create=createPlane();
+    create.add();
+    create.add();
+    create.add();
+    create.add();
+    // create.getList();
+    function movePlane() {
+        var planeList=create.getList();
+        planeList.push("陈海林");
+        console.log("外面的");
+        console.log(planeList);
+    }
+    movePlane();
+
+
+    function mytest() {
+     var planeList=create.getList();
+     console.log("==============");
+        console.log(planeList);
+    }
+    mytest();
+
+
+    //闭包资源一直会存在我们的内存中,不会自动释放,必须手动释放,否则会一直占用内存;
+    create=null;//释放内存
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

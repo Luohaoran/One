@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // function emp(name) {
+    //     this.name=name;
+    // }
+    // var e=new emp("张三");
+    //
+    function emp(name,age) {
+       var name=name;
+       var age=age;
+       this.getUser=function () {
+           return getName()+getAge();
+       };
+       var getName=function () {
+           return name;
+       };
+       var getAge=function () {
+           return age
+       };
+       //闭包
+       //  this.getName=function () {
+       //      name=name+"oooooo";
+       //      return name;
+       //  };
+       //  this.setName=function (myname) {
+       //      name=myname
+       //  };
+    }
+    // var e=new emp("张三","18");
+    // e.setName("陈海林");
+    // console.log(e.getName());
+    // e.name="王麻子";
+    var e=new emp("陈海林","18");
+    console.log(e.getUser())
+</script>
+</body>
+</html>
