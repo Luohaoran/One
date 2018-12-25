@@ -26,7 +26,7 @@
       <file leaf-file-name="Object.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/高级js/day1/Object.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="176">
               <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
             </state>
           </provider>
@@ -95,8 +95,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="52" />
+    <option name="y" value="26" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -114,29 +115,6 @@
             <path>
               <item name="One" type="b2602c69:ProjectViewProjectNode" />
               <item name="One" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-              <item name="高级js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-              <item name="高级js" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="One" type="b2602c69:ProjectViewProjectNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-              <item name="高级js" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +162,7 @@
       <workItem from="1544894561296" duration="513000" />
       <workItem from="1544946949047" duration="103000" />
       <workItem from="1544947146314" duration="1240000" />
-      <workItem from="1545006186929" duration="1212000" />
+      <workItem from="1545006186929" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -211,7 +189,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4294000" />
+    <option name="totallyTimeSpent" value="5609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,13 +201,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="42" y="21" width="782" height="831" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5067024" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.33285302" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.44935805" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -396,7 +373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/高级js/day1/Object.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="176">
           <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
