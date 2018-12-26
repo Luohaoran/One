@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="vue安装步骤">
+      <change afterPath="$PROJECT_DIR$/react/打包.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/react/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,22 +49,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="434">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="打包.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/打包.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="4.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/高级js/day1/img/4.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/高级js/day1/img/2.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -107,6 +111,8 @@
         <option value="$PROJECT_DIR$/react/2.html" />
         <option value="$PROJECT_DIR$/Vue/vue安装步骤.html" />
         <option value="$PROJECT_DIR$/react/test.html" />
+        <option value="$PROJECT_DIR$/打包.html" />
+        <option value="$PROJECT_DIR$/react/打包.html" />
       </list>
     </option>
   </component>
@@ -119,7 +125,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -140,6 +146,11 @@
               <item name="One" type="b2602c69:ProjectViewProjectNode" />
               <item name="One" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="One" type="b2602c69:ProjectViewProjectNode" />
+              <item name="One" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -156,6 +167,9 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/react/2.html" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\罗浩然\Desktop\GIthub\One\react" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\罗浩然\Desktop\GIthub\One\高级js" />
     </key>
@@ -189,7 +203,7 @@
       <workItem from="1545006186929" duration="2527000" />
       <workItem from="1545713879770" duration="73000" />
       <workItem from="1545718460523" duration="282000" />
-      <workItem from="1545787766870" duration="2316000" />
+      <workItem from="1545787766870" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -219,11 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545718608298</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="父子组件传值&#10;以及渲染页面">
+      <created>1545790380258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545790380258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8280000" />
+    <option name="totallyTimeSpent" value="10549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,10 +256,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26845637" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.33333334" />
@@ -305,12 +326,10 @@
     <MESSAGE value="第二次提交" />
     <MESSAGE value="高级js" />
     <MESSAGE value="vue安装步骤" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue安装步骤" />
+    <MESSAGE value="父子组件传值&#10;以及渲染页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="父子组件传值&#10;以及渲染页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/高级js/day1/Object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -542,8 +561,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="434">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/打包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
