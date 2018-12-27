@@ -5,7 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-
 http://www.woshipm.com/pd/123646.html
 https://www.imooc.com/learn/935
 
@@ -22,20 +21,34 @@ JSX：用于定义页面结构
 react 特点：
 1.虚拟DOM
 2.组件化开发
+<!---->
 
-1.点击 提交 触发时间
-2.获取输入框的值,将值组装成APP.js数据
-3.数据传递给CommentBox,
+1.点击 提交 触发事件
+2.获取输入框的值，将值组装成APP.js 数据
+3.数据传递给CommentBox
 4.重新渲染页面
 
-CommentForm>CommentBox>CommentList
+CommentForm==>CommentBox==>CommentList
 
-props vs state
+https://segmentfault.com/a/1190000008165717
 
-1.props用于父子组件传递数据
-state管理本组件的数据
-2.state发生变化时会重新渲染页面
 
+props  vs  state
+
+1.props 用于父子之间传递数据
+state 管理本组件上的数据
+
+2.当state发生改变的时候 页面会触发render 重新渲染页面
+
+
+======================路由========================
+npm install react-router-dom --save-dev
+
+BrowserRouter as Router  最大的路由视图容器
+Route  进行路由配置的组件
+Link 跳转
+
+will 函数 进入状态之前调用，did 函数在进入状态之后调用
 
 </body>
 </html>
