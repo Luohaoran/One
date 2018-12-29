@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/Vue/vue安装步骤.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -46,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="266">
+              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="打包.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="打包.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react/打包.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="222">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -123,9 +123,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="596" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="595" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,6 +201,7 @@
       <workItem from="1545713879770" duration="73000" />
       <workItem from="1545718460523" duration="282000" />
       <workItem from="1545787766870" duration="5201000" />
+      <workItem from="1545882212862" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -244,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545794132567</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="路由">
+      <created>1545882274854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545882274854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11165000" />
+    <option name="totallyTimeSpent" value="11825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,13 +268,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26845637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1321004" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.44935805" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +340,8 @@
     <MESSAGE value="vue安装步骤" />
     <MESSAGE value="父子组件传值&#10;以及渲染页面" />
     <MESSAGE value="打包" />
-    <option name="LAST_COMMIT_MESSAGE" value="打包" />
+    <MESSAGE value="路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="路由" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/高级js/day1/Object.html">
@@ -560,21 +569,21 @@
     <entry file="file://$PROJECT_DIR$/Vue/vue安装步骤.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react/打包.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="222">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
         </state>
       </provider>
     </entry>
