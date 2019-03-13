@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="路由">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue/dd.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vue/dd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,6 +93,7 @@
         <option value="$PROJECT_DIR$/打包.html" />
         <option value="$PROJECT_DIR$/react/打包.html" />
         <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/Vue/dd.html" />
       </list>
     </option>
   </component>
@@ -121,7 +130,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/react/2.html" />
   </component>
   <component name="RecentsManager">
@@ -163,7 +172,7 @@
       <workItem from="1545718460523" duration="282000" />
       <workItem from="1545787766870" duration="5201000" />
       <workItem from="1545882212862" duration="660000" />
-      <workItem from="1552446667168" duration="868000" />
+      <workItem from="1552446667168" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -228,11 +237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552446840799</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="路由">
+      <created>1552447551527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552447551527</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12693000" />
+    <option name="totallyTimeSpent" value="13100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,7 +261,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="741" y="0" width="1186" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21777004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,6 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/dd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
