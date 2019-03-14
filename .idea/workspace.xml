@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="我添加了一段文字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/这是啥/新建.html" beforeDir="false" afterPath="$PROJECT_DIR$/这是啥/新建.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -168,7 +167,7 @@
       <workItem from="1552465170198" duration="157000" />
       <workItem from="1552530203452" duration="3928000" />
       <workItem from="1552554879070" duration="555000" />
-      <workItem from="1552555447059" duration="238000" />
+      <workItem from="1552555447059" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -275,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552554893033</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="我添加了一段文字">
+      <created>1552555910523</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552555910523</updated>
+    </task>
+    <task id="LOCAL-00017" summary="我添加了一段文字">
+      <created>1552555917879</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552555917879</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
