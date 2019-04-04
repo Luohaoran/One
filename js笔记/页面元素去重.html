@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>1</li>
+    <li>2</li>
+    <li>2</li>
+    <li>2</li>
+    <li>2</li>
+    <li>3</li>
+    <li>3</li>
+    <li>4</li>
+    <li>4</li>
+</ul>
+<button id="but">ddd</button>
+<p></p>
+<script src="jquery-3.1.1.js"></script>
+<script>
+    function uniq(array) {
+        var temp = [];
+        var index = [];
+        var l = array.length;
+        for (var i = 0; i < l; i++) {
+            for (var j = i + 1; j < l; j++) {
+                if (array[i].innerHTML === array[j].innerHTML) {//如果相等就终止此次循环并进入顶层循环的下一轮
+                    i++;
+                    j = i;
+                }
+            }
+            temp.push(array[i]);
+            index.push(i);
+        }
+        return temp;
+    }
+
+    $('#but').on('click', function () {
+        var arr = $('li');
+        var _arr = arr;
+        $('p').html(uniq(_arr));
+    })
+</script>
+</body>
+</html>
