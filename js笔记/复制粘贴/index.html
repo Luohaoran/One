@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复制</title>
+</head>
+
+<script type="text/html" src="../jquery-3.1.1.js"></script>
+<script type="text/javascript" src="clipboard.min.js"></script>
+<body>
+<script>
+    $('xxxx').on('click',function () {
+        $(this).attr('data-clipboard-text',data.url);//将要复制的属性添加到该元素
+        var clipboard = new Clipboard('#copy');
+        clipboard.on('success', function(e) {//复制链接
+            $.Msg('复制链接成功')
+        })
+        clipboard.on('error', function(e) {
+            $.Msg('复制失败请手动复制')
+        });
+    })
+</script>
+</body>
+</html>

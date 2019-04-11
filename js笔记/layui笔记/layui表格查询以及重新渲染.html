@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询，渲染</title>
+</head>
+<body>
+
+<script>
+    table.reload('extend', {//渲染时设置的id名
+        url: _baseurl + '/agent/getSpread?from_station=only_port',
+        where: {//请求参数
+            'user_id':member_id,
+            'type':usertype,
+            'rebate_mini':fdmini,
+            'rebate_max':fdmax,
+            'validity':Term,
+            'status':status
+        }, //设定异步数据接口的额外参数
+        done: function(res, curr, count){
+            this.where={};//这一步清空上次的参数，不然本次reload会携带上次的参数
+        }
+
+    });
+</script>
+</body>
+</html>

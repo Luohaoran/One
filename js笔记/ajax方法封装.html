@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封装ajax</title>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+</head>
+<body>
+<script>
+    function getJson(type, url, data, success, error) {//封装的ajax方法
+        var baseurl = 'http://www.mc.com/index.php';
+        success = (typeof success === "function") ? success : function () {
+        };
+        $.ajax({
+            type: type,
+            url: baseurl + url,
+            dataType: "json",
+            data: data,
+            success: success,
+            error: error,
+        })
+    }
+</script>
+</body>
+</html>

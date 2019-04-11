@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日期插件</title>
+</head>
+<link rel="stylesheet" href="__MEMBERJS__/layui/css/layui.css"/>
+<script type="text/javascript" src="__MEMBERJS__/layui/layui.js"></script>
+<script type="text/javascript" src="__MEMBERJS__/lib/jquery-1.11.3.js"></script>
+<body>
+<script>
+    layui.use(['laydate', 'util'], function () {//layui初始化
+
+        var laydate = layui.laydate,//日期插件模块
+            util = layui.util;//小工具模块
+        var end_time = util.toDateString(new Date(), 'yyyy-MM-dd 23:59');//获取今天
+        laydate.render({
+            elem: '#time1',//元素id
+            type: 'datetime',
+            theme: '#393D49',
+            calendar: true,
+            // max: 'nowTime',//最大选择日期限制
+            value: util.toDateString(new Date(), 'yyyy-MM-dd 00:00'),//填充当前时间
+            format: 'yyyy-MM-dd HH:mm', //可任意组合,日期格式
+            // done: function (value, date) {//点击触发的回掉
+            //     $('#time1').val(util.toDateString(date, 'yyyy-MM-dd HH:mm'))
+            // }
+        });
+    })
+</script>
+
+
+</body>
+</html>

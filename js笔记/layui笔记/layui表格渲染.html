@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格渲染</title>
+</head>
+<body>
+
+<script>
+    var table = layui.table;
+    table.render({
+        elem: '#extend',
+        url: _baseurl + '/agent/getSpread?from_station=only_port',
+        method: 'post',
+        where: {
+            'user_id': member_id
+        },
+        response: {
+            statusName: 'code', //规定数据状态的字段名称，默认：code
+            statusCode: 1, //规定成功的状态码，默认：0
+            msgName: 'msg', //规定状态信息的字段名称，默认：msg
+        },
+        parseData: function (res) { //res 即为原始返回的数据
+            if (res.code == 1) {
+                $(".layui-table-page").show();//显示分页
+                return {
+                    "code": res.code, //解析接口状态
+                    "msg": res.message, //解析提示文本
+                    "count": res.data.total, //解析数据长度
+                    "data": res.data.data //解析数据列表
+                };
+            } else {
+                $(".layui-table-page").hide();//隐藏分页
+                return {
+                    "code": res.code, //解析接口状态
+                    "msg": '暂无下注记录', //解析提示文本
+                };
+            }
+        },
+        cols: [[ //标题栏
+            {field: 'id', title: 'id', width: 100, hide: true},//每条数据id绑定
+            {field: 'qrcode', title: 'qrcode', width: 100, hide: true},//二维码地址设置
+            {field: 'name', title: '名称', width: 60},
+            {field: 'type', title: '用户类型', width: 90, templet: '#usertypes'},
+            {field: 'rebate', title: '返点', width: 60, templet: '#rebate'},
+            {field: 'reg_num', title: '已注册人数', width: 100},
+            {field: 'validity', title: '有效期', width: 80, templet: '#time'},
+            {field: 'create_time', title: '生成日期', width: 150},
+            {field: 'status', title: '状态', width: 90},
+            {field: 'url', title: '链接', width: 200},
+            {field: 'operation', title: '操作', width: 165, templet: '#operation'},
+        ]],
+        page: {
+            //支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
+            layout: [ 'count', 'prev', 'page', 'next','limit', 'skip'] //自定义分页布局
+            //,curr: 5 //设定初始在第 5 页
+            ,groups: 5 //只显示 1 个连续页码
+        }, //是否显示分页
+        skin: 'line', //表格风格,
+        even: true,
+        limits: [10, 12, 14],
+        limit: 10, //每页默认显示的数量
+        id: 'extend'
+    });
+    table.on('tool(extend)', function (obj) {//监听表格按钮点击事件
+        var data = obj.data;//获取这一行的所有数据
+        if (obj.event === 'delete') {
+
+        }
+        if (obj.event==='copy'){
+
+        }
+        if (obj.event==='code'){//查看二维码
+
+        }
+    });
+</script>
+</body>
+</html>

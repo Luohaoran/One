@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出图片位置定位</title>
+</head>
+<body>
+
+<script>
+    function getImageWidth(url, callback) {//解决弹出层定位问题
+        var img = new Image();
+        img.src = url;
+        // 如果图片被缓存，则直接返回缓存数据
+        if (img.complete) {
+            callback(img.width, img.height);
+        } else {
+            img.onload = function () {
+                callback(img.width, img.height);
+            }
+        }
+    }
+    getImageWidth(codeurl,function (w,h) {
+        parent.layer.open({
+            type: 1,
+            title: false,
+            shadeClose: true,
+            offset: 'auto',
+            skin: 'layui-layer-rim', //加上边框
+            area: [w/2+'px',h/2+'px'],
+            content:  '<div>这是二维码界面哦</div>' +
+                '<img src="'+(imgurl+codeurl)+'" alt="" class="codeimg">'
+        });
+    })
+</script>
+</body>
+</html>
