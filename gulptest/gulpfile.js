@@ -13,8 +13,7 @@ const gulp = require('gulp'),
     gulpRemoveHtml = require('gulp-remove-html'),//标签清除，参考：https://www.npmjs.com/package/gulp-remove-html
     removeEmptyLines = require('gulp-remove-empty-lines');//清除空白行，参考：https://www.npmjs.com/package/gulp-remove-empty-lines
 
-
-gulp.task('default', async () => {
+gulp.task('default', async () => {//默认执行
     gulp.start('js');
 });
 
