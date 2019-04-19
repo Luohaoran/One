@@ -78,24 +78,24 @@ gulp.task('css', async () => {
 // });
 
 
-// gulp.task('html', function () {//压缩html
-//     var options = {
-//         removeComments: true,//清除HTML注释
-//         collapseWhitespace: false,//压缩HTML
-//         collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
-//         removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
-//         removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
-//         removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
-//         minifyJS: true,//压缩页面JS
-//         minifyCSS: true//压缩页面CSS
-//     };
-//     gulp.src('public/view/member/member/*.html')
-//         .pipe(gulpRemoveHtml())//清除特定标签
-//         .pipe(removeEmptyLines({removeComments: true}))//清除空白行
-//         .pipe(htmlmin(options))
-//         .pipe(gulp.dest('dist/html'))
-//         .pipe(notify({message: 'html task ok'}));   //提示成功
-// });
+gulp.task('html', function () {//压缩html
+    var options = {
+        removeComments: true,//清除HTML注释
+        collapseWhitespace: true,//压缩HTML
+        collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
+        removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
+        removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
+        removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
+        minifyJS: true,//压缩页面JS
+        minifyCSS: true//压缩页面CSS
+    };
+    gulp.src('*.html')
+        .pipe(gulpRemoveHtml())//清除特定标签
+        .pipe(removeEmptyLines({removeComments: true}))//清除空白行
+        .pipe(htmlmin(options))
+        .pipe(gulp.dest('dist/html'))
+        .pipe(notify({message: 'html task ok'}));   //提示成功
+});
 
 
 
