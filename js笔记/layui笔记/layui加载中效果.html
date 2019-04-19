@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载中</title>
+</head>
+<body>
+
+<script>
+    //开始请求
+    loadingFlag= layer.msg('正在读取数据，请稍候……', { icon: 16, shade: 0.01,shadeClose:false,time:60000 });
+
+    //请求结束
+    layer.close(loadingFlag);
+</script>
+</body>
+</html>

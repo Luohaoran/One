@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>递归倒计时</title>
+</head>
+<body>
+
+<script>
+    var formatSeconds=function (leftTime, callback, end) {//页面倒计时
+        time--;
+        // console.log(time);
+        // callback='';
+        // end='';
+        //定义变量 d,h,m,s保存倒计时的时间
+        var d, h, m, s;
+        if (time >= 0) {
+            // d = Math.floor(leftTime/60/60/24);
+            h = Math.floor(time / 60 / 60 % 24);
+            m = Math.floor(time / 60 % 60);
+            s = Math.floor(time % 60);
+        }
+
+        if (s < 10) s = "0" + s;
+        if (m < 10) m = "0" + m;
+        if (h < 10) h = "0" + h;
+
+        if (time === 0) {
+            end && end();
+            // return;
+        }
+        // callback && callback(h + ":" + m + ":" + s);
+        if (h===undefined||m===undefined||s===undefined){
+            callback && callback('00' + '<span class="jiange">:</span>' + '00' + '<span class="jiange">:</span>' + '00');
+        } else {
+            callback && callback(h + '<span class="jiange">:</span>' + m + '<span class="jiange">:</span>' + s);
+        }
+        //递归每秒调用formatSeconds方法，显示动态时间效果
+        setTimeout(function () {
+            $.formatSeconds(leftTime, callback, end);
+        }, 1000);
+    }
+</script>
+</body>
+</html>

@@ -20,6 +20,7 @@
             statusCode: 1, //规定成功的状态码，默认：0
             msgName: 'msg', //规定状态信息的字段名称，默认：msg
         },
+
         parseData: function (res) { //res 即为原始返回的数据
             if (res.code == 1) {
                 $(".layui-table-page").show();//显示分页
@@ -33,10 +34,11 @@
                 $(".layui-table-page").hide();//隐藏分页
                 return {
                     "code": res.code, //解析接口状态
-                    "msg": '暂无下注记录', //解析提示文本
+                    "msg": res.message, //解析提示文本
                 };
             }
         },
+
         cols: [[ //标题栏
             {field: 'id', title: 'id', width: 100, hide: true},//每条数据id绑定
             {field: 'qrcode', title: 'qrcode', width: 100, hide: true},//二维码地址设置
@@ -52,27 +54,105 @@
         ]],
         page: {
             //支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
-            layout: [ 'count', 'prev', 'page', 'next','limit', 'skip'] //自定义分页布局
+            layout: ['prev', 'page', 'next'] //自定义分页布局
             //,curr: 5 //设定初始在第 5 页
-            ,groups: 5 //只显示 1 个连续页码
+            , groups: 5 //只显示 1 个连续页码
         }, //是否显示分页
         skin: 'line', //表格风格,
         even: true,
         limits: [10, 12, 14],
         limit: 10, //每页默认显示的数量
-        id: 'extend'
+        id: 'extend',
     });
     table.on('tool(extend)', function (obj) {//监听表格按钮点击事件
         var data = obj.data;//获取这一行的所有数据
         if (obj.event === 'delete') {
-
+            parent.layer.confirm('确定删除该链接吗',//这里是父元素打开所以下面关闭就要父元素关闭
+                //弹框参数配置
+                {
+                    offset: '300px',
+                },
+                function (index) {
+                    obj.del();
+                    parent.layer.close(index);//父元素弹框关闭
+                    _getJson(
+                        'post',
+                        '/agent/delSpread?from_station=only_port',
+                        {
+                            'user_id': member_id,
+                            'spread_id': data.id
+                        }, function (data) {
+                            if (data.code == 1) {
+                                $.Msg(data.data);
+                            } else {
+                                $.Msg(data.message)
+                            }
+                        }
+                    );
+                    $.refs(//判断是否是该页面最后一条数据，如果是就返回上一页(这里就是table.reload方法)
+                        'extend',
+                        '/agent/getSpread?from_station=only_port',
+                        {},
+                        function (res, curr) {
+                            var brforeCurr = curr; // 获得当前页码
+                            if (res.code == -1) { //无数据
+                                if (curr != 1) { //不是第一页
+                                    table.reload("extend", { // 刷新表格到上一页
+                                        page: {
+                                            curr: brforeCurr - 1
+                                        }
+                                    });
+                                }
+                            }
+                        }
+                    )
+                });
         }
-        if (obj.event==='copy'){
-
+        if (obj.event === 'copy') {
+            $(this).attr('data-clipboard-text', data.url);//将要复制的属性添加到该元素
+            var clipboard = new Clipboard('#copy');
+            clipboard.on('success', function (e) {//复制链接
+                $.Msg('复制链接成功')
+            });
+            clipboard.on('error', function (e) {
+                $.Msg('复制失败请手动复制')
+            });
         }
-        if (obj.event==='code'){//查看二维码
-
+        if (obj.event === 'code') {//查看二维码
+            var codesrc = 'http://192.168.5.175:81/';
+            var codeurl = codesrc + data.qrcode;//二维码地址
+            $.getImageWidth(codeurl, function (w, h) {
+                parent.layer.open({
+                    type: 1,
+                    title: false,
+                    shadeClose: true,
+                    offset: 'auto',
+                    skin: 'layui-layer-rim', //加上边框
+                    area: [w / 2 + 'px', h / 2 + 'px'],
+                    content:
+                        '<img src="' + codeurl + '" alt="" class="codeimg">'
+                });
+            })
         }
+    });
+
+
+    $('.search').on('click', function () {
+        $.refs(
+            'extend',
+            '/agent/getSpread?from_station=only_port',
+            {
+                'user_id': member_id,
+                'rebate_mini': fdmini,
+                'rebate_max': fdmax,
+                'type': usertype,
+                'validity': Term,
+                'status': status
+            },
+            function () {
+                this.where = {};//搜索完成之后清空数据，不然会携带上次存在的参数
+            }
+        );
     });
 </script>
 </body>
