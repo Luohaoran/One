@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+
+    // (function () {
+    //     //3.1函数中的作用域
+    //     function foo(a) {
+    //         // console.log(a);//这里隐式创建了a(RHS)
+    //         var b = 2;
+    //
+    //         //一些代码
+    //         function bar() {
+    //             //....
+    //         }
+    //
+    //         //更多的代码
+    //         var c = 3;
+    //     }
+    //
+    //     foo(3)
+    //
+    //     /* 代码片段中foo(..)的作用域气泡包含了标识符a,b,c和bar
+    //     * 当前的全局作用域中(window)只包含了foo标识符*/
+    // })();
+    //
+    // (function () {
+    //     //3.2隐藏内部实现
+    //     function doSomething(a) {
+    //         function doSomethingElse(a) {//4
+    //             return a - 1//4-1
+    //         }
+    //
+    //         var b = a + doSomethingElse(a * 2);//5
+    //         console.log(b * 3);//15
+    //     }
+    //     doSomething(2);
+    //
+    //     //规避冲突
+    //     function foo() {
+    //         function bar(a) {
+    //              i=3;
+    //             console.log(a+i);
+    //         }
+    //         for (var i=0;i<10;i++){
+    //             // console.log(i);
+    //             bar(i*2);
+    //         }
+    //     }
+    //     // foo();
+    //     /*foo()内部的i=3覆盖了for循环中的i,导致无限循环(i一直是3)*/
+    // })()
+    //
+    // (function () {
+    //
+    // }())
+    // (function () {
+    //
+    // })()
+    // //两种写法效果一样(IIFE,立即执行表达式)
+
+    //IIFE进阶用法
+    // var a=2;
+    // (function IIFE(global) {
+    //     var a=3;
+    //     console.log(global.a)
+    // })(window);//这里传入window对象进去
+    // console.log(a);
+
+    //IIFE倒置代码
+    var a = 2;
+    (function IIFE(def) {
+        def(window)//这一步将window对象传入def()
+    })(function def(global) {
+        var a = 3;
+        console.log(a);//def()内部的a---3
+        console.log(global.a);//window对象的a---2
+        console.log(window.a)//window对象的a---2
+    })
+
+
+
+</script>
+</body>
+</html>

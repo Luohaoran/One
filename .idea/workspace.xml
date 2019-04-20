@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="gulp压缩页面">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="gulptest/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="282" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="One" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulptest/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulptest/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gulp</find>
+      <find>let</find>
+      <find>rename</find>
+      <find>style</find>
+      <find>buildBasePath</find>
+      <find>var error = result.error</find>
+      <find>html3</find>
+      <find>hot</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/这是啥/嗷嗷嗷.html" />
+        <option value="$PROJECT_DIR$/这是啥/顶顶顶.html" />
+        <option value="$PROJECT_DIR$/这是啥/新建.html" />
+        <option value="$PROJECT_DIR$/js笔记/复制粘贴/index.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/解决第一次图片弹出位置不居中.html" />
+        <option value="$PROJECT_DIR$/js笔记/ajax方法封装.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui日期插件.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表单重置.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表格查询以及重新渲染.html" />
+        <option value="$PROJECT_DIR$/js笔记/gulpfile.js" />
+        <option value="$PROJECT_DIR$/react/webpack.config.js" />
+        <option value="$PROJECT_DIR$/react/js/g11x5.js" />
+        <option value="$PROJECT_DIR$/react/gulpfile.js" />
+        <option value="$PROJECT_DIR$/react/package.json" />
+        <option value="$PROJECT_DIR$/gulptest2/package.json" />
+        <option value="$PROJECT_DIR$/gulptest2/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulptest2/.babelrc.js" />
+        <option value="$PROJECT_DIR$/gulptest/babelrc.js" />
+        <option value="$PROJECT_DIR$/gulptest/.babelrc.json" />
+        <option value="$PROJECT_DIR$/webpack/package.json" />
+        <option value="$PROJECT_DIR$/webpack_test/bundle.js" />
+        <option value="$PROJECT_DIR$/webpack_test/entry.js" />
+        <option value="$PROJECT_DIR$/webpack_test/index.html" />
+        <option value="$PROJECT_DIR$/webpack_test/webpack.config.js" />
+        <option value="$PROJECT_DIR$/gulptest/js/a.js" />
+        <option value="$PROJECT_DIR$/js笔记/gulp/gulp安装.html" />
+        <option value="$PROJECT_DIR$/js笔记/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulptest/package.json" />
+        <option value="$PROJECT_DIR$/gulptest/node_modules/jshint/src/reporters/default.js" />
+        <option value="$PROJECT_DIR$/gulptest/jshintrc.json" />
+        <option value="$PROJECT_DIR$/js笔记/判断一堆数字是否相等.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui加载中效果.html" />
+        <option value="$PROJECT_DIR$/js笔记/cookie操作.html" />
+        <option value="$PROJECT_DIR$/Vue/vue安装步骤.html" />
+        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表格渲染.html" />
+        <option value="$PROJECT_DIR$/js笔记/复制粘贴/递归倒计时.html" />
+        <option value="$PROJECT_DIR$/js笔记/递归倒计时.html" />
+        <option value="$PROJECT_DIR$/webpack/webpack-demo/package.json" />
+        <option value="$PROJECT_DIR$/webpack/webpack-demo/webpack.config.js" />
+        <option value="$PROJECT_DIR$/gulptest/js/ssc.js" />
+        <option value="$PROJECT_DIR$/gulptest/js/extend.js" />
+        <option value="$PROJECT_DIR$/gulptest/js/lib/header.js" />
+        <option value="$PROJECT_DIR$/gulptest/dist/lib/header.js" />
+        <option value="$PROJECT_DIR$/gulptest/js/lib/clipboard.min.js" />
+        <option value="$PROJECT_DIR$/gulptest/testHtml.html" />
+        <option value="$PROJECT_DIR$/gulptest/test2.html" />
+        <option value="$PROJECT_DIR$/gulptest/gulpfile.js" />
+        <option value="$PROJECT_DIR$/你不知道js/test.html" />
+        <option value="$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html" />
+        <option value="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="321" />
+    <option name="y" value="-9" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="One" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\罗浩然\Desktop\gitHub\One" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/react/2.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\罗浩然\Desktop\One\gulptest" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\js笔记" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\public" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\js" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\react\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\js" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\webpack\webpack-demo\js" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\public" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.第三章_函数作用域和块作用域.html">
+    <configuration name="第三章_函数作用域和块作用域.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/One/你不知道js/上卷/第三章_函数作用域和块作用域.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/One/你不知道js/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulptest/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/gulptest/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="" />
+      <created>1544893061926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544893061926</updated>
+      <workItem from="1544893066363" duration="1226000" />
+      <workItem from="1544894561296" duration="513000" />
+      <workItem from="1544946949047" duration="103000" />
+      <workItem from="1544947146314" duration="1240000" />
+      <workItem from="1545006186929" duration="2527000" />
+      <workItem from="1545713879770" duration="73000" />
+      <workItem from="1545718460523" duration="282000" />
+      <workItem from="1545787766870" duration="5201000" />
+      <workItem from="1545882212862" duration="660000" />
+      <workItem from="1552446667168" duration="1275000" />
+      <workItem from="1552465170198" duration="157000" />
+      <workItem from="1552530203452" duration="3928000" />
+      <workItem from="1552554879070" duration="555000" />
+      <workItem from="1552555447059" duration="482000" />
+      <workItem from="1554944437152" duration="1855000" />
+      <workItem from="1554948271474" duration="2977000" />
+      <workItem from="1554962562571" duration="574000" />
+      <workItem from="1554963223908" duration="4222000" />
+      <workItem from="1554967679308" duration="769000" />
+      <workItem from="1554968716410" duration="1367000" />
+      <workItem from="1554970167464" duration="2136000" />
+      <workItem from="1554972660019" duration="520000" />
+      <workItem from="1554973204960" duration="1358000" />
+      <workItem from="1554974596232" duration="5280000" />
+      <workItem from="1555030333160" duration="983000" />
+      <workItem from="1555031642596" duration="2906000" />
+      <workItem from="1555055598057" duration="148000" />
+      <workItem from="1555058594721" duration="159000" />
+      <workItem from="1555140936547" duration="40000" />
+      <workItem from="1555296249246" duration="1254000" />
+      <workItem from="1555318814382" duration="613000" />
+      <workItem from="1555406834141" duration="203000" />
+      <workItem from="1555473707822" duration="134000" />
+      <workItem from="1555655455239" duration="125000" />
+      <workItem from="1555657477860" duration="246000" />
+      <workItem from="1555657761788" duration="652000" />
+      <workItem from="1555658631350" duration="8000" />
+      <workItem from="1555660813835" duration="5390000" />
+      <workItem from="1555673104015" duration="912000" />
+      <workItem from="1555674283084" duration="3711000" />
+      <workItem from="1555683859089" duration="233000" />
+      <workItem from="1555684115450" duration="24000" />
+      <workItem from="1555684143960" duration="2319000" />
+      <workItem from="1555686609870" duration="1306000" />
+      <workItem from="1555688207230" duration="541000" />
+      <workItem from="1555744883595" duration="1013000" />
+      <workItem from="1555745925214" duration="3979000" />
+      <workItem from="1555750610819" duration="1429000" />
+    </task>
+    <task id="LOCAL-00001" summary="这是什么啊">
+      <created>1544893748691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544893748691</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次提交">
+      <created>1544894040489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544894040489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="高级js">
+      <created>1544947647498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544947647498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vue安装步骤">
+      <created>1545718608298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545718608298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="父子组件传值&#10;以及渲染页面">
+      <created>1545790380258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545790380258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="打包">
+      <created>1545794132567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545794132567</updated>
+    </task>
+    <task id="LOCAL-00007" summary="路由">
+      <created>1545882274854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545882274854</updated>
+    </task>
+    <task id="LOCAL-00008" summary="路由">
+      <created>1552446807645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552446807645</updated>
+    </task>
+    <task id="LOCAL-00009" summary="路由">
+      <created>1552446840799</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552446840799</updated>
+    </task>
+    <task id="LOCAL-00010" summary="路由">
+      <created>1552447551527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552447551527</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <created>1552530326673</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552530326673</updated>
+    </task>
+    <task id="LOCAL-00012" summary="我添加了一段文字">
+      <created>1552530893316</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552530893316</updated>
+    </task>
+    <task id="LOCAL-00013" summary="我添加了一段文字">
+      <created>1552531057461</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552531057461</updated>
+    </task>
+    <task id="LOCAL-00014" summary="我添加了一段文字">
+      <created>1552531202771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552531202771</updated>
+    </task>
+    <task id="LOCAL-00015" summary="我添加了一段文字">
+      <created>1552554893033</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552554893033</updated>
+    </task>
+    <task id="LOCAL-00016" summary="我添加了一段文字">
+      <created>1552555910523</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552555910523</updated>
+    </task>
+    <task id="LOCAL-00017" summary="我添加了一段文字">
+      <created>1552555917879</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552555917879</updated>
+    </task>
+    <task id="LOCAL-00018" summary="gulp">
+      <created>1554979786614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554979786614</updated>
+    </task>
+    <task id="LOCAL-00019" summary="gulp">
+      <created>1555685288538</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555685288538</updated>
+    </task>
+    <task id="LOCAL-00020" summary="gulp压缩页面设置">
+      <created>1555687265844</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555687265844</updated>
+    </task>
+    <task id="LOCAL-00021" summary="gulp压缩页面">
+      <created>1555687882164</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555687882164</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67392000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="npm" sideWeight="0.4661017" side_tool="true" weight="0.27542934" />
+      <window_info id="Gulp" sideWeight="0.4661017" side_tool="true" visible="true" weight="0.27542934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.27542934" />
+      <window_info id="Structure" order="1" sideWeight="0.50708216" side_tool="true" weight="0.27542934" />
+      <window_info id="Favorites" order="2" sideWeight="0.5063291" side_tool="true" weight="0.27542934" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4918033" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33144477" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947312" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82579565" weight="0.048158642" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17420435" side_tool="true" weight="0.7167139" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49679488" weight="0.27620396" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Debug" order="3" sideWeight="0.7690678" weight="0.32171583" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.2309322" side_tool="true" visible="true" weight="0.32171583" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.1327609" />
+      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.31730768" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4918033" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.82579565" visible="true" weight="0.04950495" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17420435" side_tool="true" weight="0.7174151" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49679488" weight="0.53824365" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952926" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/test" />
+    </ignored-roots>
+    <MESSAGE value="这是什么啊" />
+    <MESSAGE value="第二次提交" />
+    <MESSAGE value="高级js" />
+    <MESSAGE value="vue安装步骤" />
+    <MESSAGE value="父子组件传值&#10;以及渲染页面" />
+    <MESSAGE value="打包" />
+    <MESSAGE value="路由" />
+    <MESSAGE value="test" />
+    <MESSAGE value="我添加了一段文字" />
+    <MESSAGE value="gulp" />
+    <MESSAGE value="gulp压缩页面设置" />
+    <MESSAGE value="gulp压缩页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="gulp压缩页面" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/One$__html.dat" NAME="第三章_函数作用域和块作用域.html Coverage Results" MODIFIED="1555749352690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/js/agentIndex.js" />
+    <entry file="file://$PROJECT_DIR$/webpack/dist/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/package.json" />
+    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/ssc.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/extend.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/extend.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/k3.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/ssc.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/.idea/js.iml" />
+    <entry file="file://$PROJECT_DIR$/gulptest/jshintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/js/agentIndex.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/header.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/lib/header.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/js/agentIndex.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/editpwd.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/css/k3.css" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/agentIndex.css" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/vue.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/common.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/clipboard.min.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/ajaxfileupload.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/qrcode.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/lobbydata.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/index.min.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/home.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/css/downApp.css" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/ZeroClipboard.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/noterecord.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/powerange.js" />
+    <entry file="file://$PROJECT_DIR$/gulptest/css/agentIndex.css" />
+    <entry file="file://$PROJECT_DIR$/gulptest/js/put.js" />
+    <entry file="file://$PROJECT_DIR$/js笔记/gulp/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/react/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/gulp安装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/test2.html" />
+    <entry file="file://$PROJECT_DIR$/gulptest/test2.html" />
+    <entry file="file://$PROJECT_DIR$/gulptest/testHtml.html" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/testHtml.html" />
+    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/gulp安装.html" />
+    <entry file="file://$PROJECT_DIR$/你不知道js/test.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js笔记/jquery-3.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="797" column="28" selection-start-line="797" selection-start-column="28" selection-end-line="797" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
