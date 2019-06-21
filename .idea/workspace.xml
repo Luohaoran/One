@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="gulp压缩页面">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js笔记/muiapp内部打开外链.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js笔记/删除数字指定位数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,26 +27,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulptest/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="264">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
+        <entry file="file://$PROJECT_DIR$/js笔记/cookie操作.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js笔记/muiapp内部打开外链.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="242">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
+        <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js笔记/删除数字指定位数.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -55,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/gulptest/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -89,8 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test.html" />
-        <option value="$PROJECT_DIR$/这是啥/嗷嗷嗷.html" />
         <option value="$PROJECT_DIR$/这是啥/顶顶顶.html" />
         <option value="$PROJECT_DIR$/这是啥/新建.html" />
         <option value="$PROJECT_DIR$/js笔记/复制粘贴/index.html" />
@@ -140,14 +152,15 @@
         <option value="$PROJECT_DIR$/你不知道js/test.html" />
         <option value="$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html" />
         <option value="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" />
+        <option value="$PROJECT_DIR$/js笔记/删除数字指定位数.html" />
+        <option value="$PROJECT_DIR$/js笔记/muiapp内部打开外链.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
-    <option name="y" value="-9" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="width" value="1694" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,7 +176,7 @@
           <expand>
             <path>
               <item name="One" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\罗浩然\Desktop\gitHub\One" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="C:\Users\Administrator\Desktop\gitHub\One" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.第三章_函数作用域和块作用域.html">
+  <component name="RunManager" selected="Gulp.js.default">
     <configuration name="第三章_函数作用域和块作用域.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/One/你不知道js/上卷/第三章_函数作用域和块作用域.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -320,6 +333,12 @@
       <workItem from="1555744883595" duration="1013000" />
       <workItem from="1555745925214" duration="3979000" />
       <workItem from="1555750610819" duration="1429000" />
+      <workItem from="1559264370527" duration="203000" />
+      <workItem from="1559265871762" duration="20000" />
+      <workItem from="1560308305496" duration="134000" />
+      <workItem from="1560393800417" duration="44000" />
+      <workItem from="1560927778526" duration="62000" />
+      <workItem from="1561081618945" duration="250000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -472,7 +491,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67392000" />
+    <option name="totallyTimeSpent" value="68105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,23 +503,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="233" y="0" width="1694" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" sideWeight="0.4661017" side_tool="true" weight="0.27542934" />
-      <window_info id="Gulp" sideWeight="0.4661017" side_tool="true" visible="true" weight="0.27542934" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.27542934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.21135266" />
       <window_info id="Structure" order="1" sideWeight="0.50708216" side_tool="true" weight="0.27542934" />
       <window_info id="Favorites" order="2" sideWeight="0.5063291" side_tool="true" weight="0.27542934" />
+      <window_info id="Gulp" order="3" sideWeight="0.4661017" side_tool="true" visible="true" weight="0.27542934" />
+      <window_info id="npm" order="4" sideWeight="0.4661017" side_tool="true" weight="0.27542934" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4918033" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33144477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31019524" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947312" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82579565" weight="0.048158642" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17420435" side_tool="true" weight="0.7167139" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49679488" weight="0.27620396" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49679488" visible="true" weight="0.27820373" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -604,9 +624,6 @@
     <SUITE FILE_PATH="coverage/One$__html.dat" NAME="第三章_函数作用域和块作用域.html Coverage Results" MODIFIED="1555749352690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/js/agentIndex.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/dist/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/package.json" />
     <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/gulptest/dist/ssc.js" />
     <entry file="file://$PROJECT_DIR$/gulptest/dist/extend.js" />
@@ -687,31 +704,48 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/package.json">
+    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulptest/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js笔记/cookie操作.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js笔记/muiapp内部打开外链.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js笔记/删除数字指定位数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulptest/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
