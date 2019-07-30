@@ -1,17 +1,18 @@
 const gulp = require('gulp'),
-      uglify = require("gulp-uglify"),//压缩js
-      babel = require("gulp-babel"),//es6转5
-      merge = require("merge-stream");
-      es2015Preset = require("babel-preset-es2015"),//es6转5
-      cssUglify = require('gulp-minify-css'),//压缩css
-      concat = require('gulp-concat'),   //合并文件
-      rename = require('gulp-rename'),   //文件重命名
-      jshint = require('gulp-jshint'),   //js检查
-      notify = require('gulp-notify'),   //提示
-      imageMin = require('gulp-imagemin'),//图片压缩
-      htmlmin = require('gulp-htmlmin'),//html压缩
-      gulpRemoveHtml = require('gulp-remove-html'),//标签清除，参考：https://www.npmjs.com/package/gulp-remove-html
-      removeEmptyLines = require('gulp-remove-empty-lines');//清除空白行，参考：https://www.npmjs.com/package/gulp-remove-empty-lines
+    uglify = require("gulp-uglify"),//压缩js
+    babel = require("gulp-babel"),//es6转5
+    merge = require("merge-stream"),
+    es2015Preset = require("babel-preset-es2015"),//es6转5
+    cssUglify = require('gulp-minify-css'),//压缩css
+    concat = require('gulp-concat'),   //合并文件
+    rename = require('gulp-rename'),   //文件重命名
+    jshint = require('gulp-jshint'),   //js检查
+    notify = require('gulp-notify'),   //提示
+    imageMin = require('gulp-imagemin'),//图片压缩
+    htmlmin = require('gulp-htmlmin'),//html压缩
+    gulpRemoveHtml = require('gulp-remove-html'), //标签清除，参考：https://www.npmjs.com/package/gulp-remove-html
+    removeEmptyLines = require('gulp-remove-empty-lines'), //清除空白行，参考：https://www.npmjs.com/package/gulp-remove-empty-lines
+    gutil=require('gulp-util');
 
 gulp.task('default', async () => {//默认执行
     gulp.start('js');
@@ -25,25 +26,30 @@ gulp.task("js", async () => {//这是压缩但不合并  多个文件夹的js同
         .pipe(babel({presets: [es2015Preset]}))
         .pipe(uglify(
             {
-                mangle: {except: ['require', 'exports', 'module', '$']},//类型：Boolean 默认：true 是否修改变量名
+                mangle: true,//类型：Boolean 默认：true 是否修改变量名
                 compress: true,//类型：Boolean 默认：true 是否完全压缩
-                preserveComments: 'false' //保留所有注释
+                // preserveComments: 'false' //保留所有注释
             }
         ))
+        .on('error', function(err) {
+            gutil.log(gutil.colors.red('[Error]'), err.toString());
+        })
         .pipe(gulp.dest("dist"))
         .pipe(notify({message: "js task ok"}));
-
     var lib = gulp.src("js/lib/*.js")
     // .pipe(jshint())
     // .pipe(jshint.reporter('default'))
         .pipe(babel({presets: [es2015Preset]}))
         .pipe(uglify(
             {
-                mangle: {except: ['require', 'exports', 'module', '$']},//类型：Boolean 默认：true 是否修改变量名
+                mangle: true,//类型：Boolean 默认：true 是否修改变量名
                 compress: true,//类型：Boolean 默认：true 是否完全压缩
-                preserveComments: 'false' //保留所有注释
+                // preserveComments: 'false' //保留所有注释
             }
         ))
+        .on('error', function(err) {
+            gutil.log(gutil.colors.red('[Error]'), err.toString());
+        })
         .pipe(gulp.dest("dist/lib"))
         .pipe(notify({message: "lib task ok"}));
     return merge(js, lib)
