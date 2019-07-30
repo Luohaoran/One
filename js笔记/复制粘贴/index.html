@@ -14,7 +14,7 @@
         var clipboard = new Clipboard('#copy');
         clipboard.on('success', function(e) {//复制链接
             $.Msg('复制链接成功')
-        })
+        });
         clipboard.on('error', function(e) {
             $.Msg('复制失败请手动复制')
         });
