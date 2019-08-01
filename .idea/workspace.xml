@@ -103,8 +103,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
-    <option name="width" value="1694" />
+    <option name="x" value="319" />
+    <option name="width" value="864" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -436,7 +436,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68180000" />
+    <option name="totallyTimeSpent" value="68728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,9 +448,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="291" y="162" width="864" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.10642782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.24455206" />
       <window_info id="Structure" order="1" sideWeight="0.50708216" side_tool="true" weight="0.27542934" />
       <window_info id="Favorites" order="2" sideWeight="0.5063291" side_tool="true" weight="0.27542934" />
       <window_info id="Gulp" order="3" sideWeight="0.4661017" side_tool="true" visible="true" weight="0.27542934" />
@@ -463,8 +463,8 @@
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947312" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82579565" weight="0.048158642" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17420435" side_tool="true" weight="0.7167139" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49679488" visible="true" weight="0.17522322" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26027396" side_tool="true" weight="0.17522322" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.739726" visible="true" weight="0.17700113" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
