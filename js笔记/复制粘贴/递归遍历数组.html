@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function test_parse(source, id) {
+        for (let key in source) {
+            if (source[key].id === id) {
+                console.log(source[key].name);
+                return false;
+            } else if (source[key].children) {
+                test_parse(source[key].children, id);
+            }
+        }
+    }
+</script>
+</html>

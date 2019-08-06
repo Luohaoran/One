@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const genUid = (length) => {
+        var soup='!#$%()*+,-./:;=?@[]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var soupLength = soup.length;
+        var id = [];
+        for (var i = 0; i < length; i++) {
+            id[i] = soup.charAt(Math.random() * soupLength)
+        }
+        return id.join('')
+    };
+    console.log(genUid(10));
+</script>
+</body>
+</html>
