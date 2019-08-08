@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let arr = [11, 23, 26, 23, 11, 9];
+    //保留重复值
+    const saveUnique = arr => arr.filter(item => arr.indexOf(item) !== arr.lastIndexOf(item));
+
+    //重复的值都去除
+    const unique = arr => arr.filter(item => arr.indexOf(item) === arr.lastIndexOf(item));
+
+    //重复项只留1个
+    function unique1(arr){
+        var hash=[];
+        for (var i = 0; i < arr.length; i++) {
+            if(hash.indexOf(arr[i])==-1){
+                hash.push(arr[i]);
+            }
+        }
+        return hash;
+    }
+</script>
+</body>
+</html>
