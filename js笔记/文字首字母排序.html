@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = ['的', '啊', '从', '吧']
+    console.log(a.sort((a, b) => a.localeCompare(b, 'zh-Hans-CN', {sensitivity: 'accent'})));//省排序)
+</script>
+</html>
