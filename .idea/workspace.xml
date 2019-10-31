@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="dd">
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/.idea/mvvm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/mvvm/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js笔记/Async/Await.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js笔记/ifelse简化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js笔记/js去重.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js笔记/promise/promise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/mvvm/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/mvvm/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js笔记/muiapp内部打开外链.html" beforeDir="false" afterPath="$PROJECT_DIR$/js笔记/lo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js笔记/js去重.html" beforeDir="false" afterPath="$PROJECT_DIR$/js笔记/js去重.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +60,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/gulp" />
-    <property name="last_opened_file_path" value="F:/caipiao/dddddddd/mc2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js笔记/获取文字首字母" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,19 +74,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/react/2.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest" />
-      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\js" />
-      <recent name="C:\Users\Administrator\Desktop\gitHub\One\webpack\webpack-demo\js" />
-      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\public" />
-      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\gitHub\One\js笔记" />
       <recent name="F:\gitHub\One\Vue" />
       <recent name="C:\Users\Administrator\Desktop\gitHub\One\react\my-app\src\css" />
       <recent name="C:\Users\罗浩然\Desktop\One\gulptest" />
       <recent name="C:\Users\Administrator\Desktop\gitHub\One\js笔记" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitHub\One\js笔记\获取文字首字母" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\js" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\webpack\webpack-demo\js" />
+      <recent name="C:\Users\Administrator\Desktop\gitHub\One\gulptest\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,6 +245,12 @@
       <workItem from="1565225749290" duration="237000" />
       <workItem from="1565226005193" duration="64000" />
       <workItem from="1565229897342" duration="241000" />
+      <workItem from="1572327646538" duration="500000" />
+      <workItem from="1572333605836" duration="629000" />
+      <workItem from="1572397866235" duration="84000" />
+      <workItem from="1572399108966" duration="3000" />
+      <workItem from="1572498726437" duration="44000" />
+      <workItem from="1572498793472" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565072051824</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="新笔记">
+      <created>1572328125107</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572328125107</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -489,7 +490,8 @@
     <MESSAGE value="gulp压缩页面" />
     <MESSAGE value="js监听器" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <MESSAGE value="新笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="新笔记" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/One$__html.dat" NAME="第三章_函数作用域和块作用域.html Coverage Results" MODIFIED="1555749352690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
