@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+1、只要“||”前面为false,不管“||”后面是true还是false，都返回“||”后面的值。
+2、只要“||”前面为true,不管“||”后面是true还是false，都返回“||”前面的值。
+
+
+1、只要“&&”前面是false，无论“&&”后面是true还是false，结果都将返“&&”前面的值;
+2、只要“&&”前面是true，无论“&&”后面是true还是false，结果都将返“&&”后面的值;
+</body>
+<script>
+    let arr = [
+        {
+            name: '张三',
+        },
+        {
+            name: '李四',
+        },
+        {
+            name: '李四',
+        },
+
+        {
+            name: '李四',
+        },
+        {
+            name: '李四',
+        },
+        {
+            name: '李四',
+        },
+        {
+            name: '李四',
+        },
+        {
+            name: '李四',
+        },
+        {
+            name: '王麻子',
+        }
+    ];
+    let uniqArrFn = (arr) => {
+        let action = new Map();
+        let uniq;
+        let maxName;
+        let maxArr = [];
+        uniq = arr.filter(value => {
+            if (!action.has(value.name)) {
+                //取反因为第一次进来必然找不到value.name  所以就不会执行set语句 导致后面每次遍历都不会执行;
+                action.set(value.name, 1);//设置Map值
+                return value//返回值
+            } else {
+                action.set(value.name, action.get(value.name) + 1);//重复次数加+1
+            }
+        });
+        action.forEach((value, key) => {
+            maxArr.push(value);
+            //删除不重复值
+            if (value === 1) {
+                arr.forEach((value1, index, array) => {
+                    if (value1.name === key) {
+                        array.splice(index, 1)
+                    }
+                })
+            }
+        });
+        action.forEach((value, key) => {
+            if (value === Math.max(...maxArr)) {
+                maxName = key
+            }
+        });
+
+        return {
+            uniq: uniq,
+            repetitive: arr,
+            maxCount: Math.max(...maxArr),
+            maxName: maxName
+        }
+    };
+    console.log(uniqArrFn(arr))
+</script>
+</html>

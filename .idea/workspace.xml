@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="b" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <ignored path="gulptest/node_modules/" />
+    <list default="true" id="9e99fee1-5b0d-4b2c-9f31-b42dbada8553" name="Default" comment="b">
+      <change afterPath="$PROJECT_DIR$/js笔记/filter加Map去重.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +18,12 @@
   <component name="FavoritesManager">
     <favorites_list name="One" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,98 +42,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/这是啥/顶顶顶.html" />
-        <option value="$PROJECT_DIR$/这是啥/新建.html" />
-        <option value="$PROJECT_DIR$/js笔记/复制粘贴/index.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/解决第一次图片弹出位置不居中.html" />
-        <option value="$PROJECT_DIR$/js笔记/ajax方法封装.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui日期插件.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表单重置.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表格查询以及重新渲染.html" />
-        <option value="$PROJECT_DIR$/js笔记/gulpfile.js" />
-        <option value="$PROJECT_DIR$/react/webpack.config.js" />
-        <option value="$PROJECT_DIR$/react/js/g11x5.js" />
-        <option value="$PROJECT_DIR$/react/gulpfile.js" />
-        <option value="$PROJECT_DIR$/react/package.json" />
-        <option value="$PROJECT_DIR$/gulptest2/package.json" />
-        <option value="$PROJECT_DIR$/gulptest2/gulpfile.js" />
-        <option value="$PROJECT_DIR$/gulptest2/.babelrc.js" />
-        <option value="$PROJECT_DIR$/gulptest/babelrc.js" />
-        <option value="$PROJECT_DIR$/gulptest/.babelrc.json" />
-        <option value="$PROJECT_DIR$/webpack/package.json" />
-        <option value="$PROJECT_DIR$/webpack_test/bundle.js" />
-        <option value="$PROJECT_DIR$/webpack_test/entry.js" />
-        <option value="$PROJECT_DIR$/webpack_test/index.html" />
-        <option value="$PROJECT_DIR$/webpack_test/webpack.config.js" />
-        <option value="$PROJECT_DIR$/gulptest/js/a.js" />
-        <option value="$PROJECT_DIR$/js笔记/gulp/gulp安装.html" />
-        <option value="$PROJECT_DIR$/js笔记/gulp/gulpfile.js" />
-        <option value="$PROJECT_DIR$/gulptest/package.json" />
-        <option value="$PROJECT_DIR$/gulptest/node_modules/jshint/src/reporters/default.js" />
-        <option value="$PROJECT_DIR$/gulptest/jshintrc.json" />
-        <option value="$PROJECT_DIR$/js笔记/判断一堆数字是否相等.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui加载中效果.html" />
-        <option value="$PROJECT_DIR$/js笔记/cookie操作.html" />
-        <option value="$PROJECT_DIR$/Vue/vue安装步骤.html" />
-        <option value="$PROJECT_DIR$/js笔记/layui笔记/layui表格渲染.html" />
-        <option value="$PROJECT_DIR$/js笔记/复制粘贴/递归倒计时.html" />
-        <option value="$PROJECT_DIR$/js笔记/递归倒计时.html" />
-        <option value="$PROJECT_DIR$/webpack/webpack-demo/package.json" />
-        <option value="$PROJECT_DIR$/webpack/webpack-demo/webpack.config.js" />
-        <option value="$PROJECT_DIR$/gulptest/js/ssc.js" />
-        <option value="$PROJECT_DIR$/gulptest/js/extend.js" />
-        <option value="$PROJECT_DIR$/gulptest/js/lib/header.js" />
-        <option value="$PROJECT_DIR$/gulptest/dist/lib/header.js" />
-        <option value="$PROJECT_DIR$/gulptest/js/lib/clipboard.min.js" />
-        <option value="$PROJECT_DIR$/gulptest/testHtml.html" />
-        <option value="$PROJECT_DIR$/gulptest/test2.html" />
-        <option value="$PROJECT_DIR$/gulptest/gulpfile.js" />
-        <option value="$PROJECT_DIR$/你不知道js/test.html" />
-        <option value="$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html" />
-        <option value="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" />
-        <option value="$PROJECT_DIR$/js笔记/删除数字指定位数.html" />
-        <option value="$PROJECT_DIR$/js笔记/muiapp内部打开外链.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="319" />
-    <option name="width" value="864" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1RCBQgCYAayjBJGdQOVNBCZfJbc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="One" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\Administrator\Desktop\gitHub\One" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -284,6 +208,16 @@
       <workItem from="1560393800417" duration="44000" />
       <workItem from="1560927778526" duration="62000" />
       <workItem from="1561081618945" duration="250000" />
+      <workItem from="1564759405922" duration="218000" />
+      <workItem from="1564926421871" duration="29000" />
+      <workItem from="1564928410152" duration="27000" />
+      <workItem from="1569161185921" duration="111000" />
+      <workItem from="1572266629293" duration="10409000" />
+      <workItem from="1572680347187" duration="315000" />
+      <workItem from="1583508127567" duration="891000" />
+      <workItem from="1583741877230" duration="1400000" />
+      <workItem from="1584093394341" duration="1423000" />
+      <workItem from="1584351359763" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="这是什么啊">
       <created>1544893748691</created>
@@ -435,64 +369,6 @@
     <option name="localTasksCounter" value="22" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68728000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="291" y="162" width="864" height="1047" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5338983" visible="true" weight="0.24455206" />
-      <window_info id="Structure" order="1" sideWeight="0.50708216" side_tool="true" weight="0.27542934" />
-      <window_info id="Favorites" order="2" sideWeight="0.5063291" side_tool="true" weight="0.27542934" />
-      <window_info id="Gulp" order="3" sideWeight="0.4661017" side_tool="true" visible="true" weight="0.27542934" />
-      <window_info id="npm" order="4" sideWeight="0.4661017" side_tool="true" weight="0.27542934" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4918033" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31019524" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947312" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82579565" weight="0.048158642" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.26027396" side_tool="true" weight="0.17522322" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.739726" visible="true" weight="0.17700113" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="3" sideWeight="0.7690678" weight="0.32171583" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.2309322" side_tool="true" visible="true" weight="0.32171583" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.1327609" />
-      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.31730768" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4918033" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3286334" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.82579565" visible="true" weight="0.04950495" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17420435" side_tool="true" weight="0.7174151" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49679488" weight="0.53824365" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952926" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -512,20 +388,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -566,133 +429,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/One$__html.dat" NAME="第三章_函数作用域和块作用域.html Coverage Results" MODIFIED="1555749352690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack/webpack-demo/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/ssc.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/extend.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/extend.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/k3.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/ssc.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/.idea/js.iml" />
-    <entry file="file://$PROJECT_DIR$/gulptest/jshintrc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/js/agentIndex.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/header.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/lib/header.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/js/agentIndex.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/editpwd.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/css/k3.css" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/agentIndex.css" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/vue.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/common.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/clipboard.min.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/ajaxfileupload.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/qrcode.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/lobbydata.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/index.min.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/home.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/css/downApp.css" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/ZeroClipboard.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/noterecord.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/lib/powerange.js" />
-    <entry file="file://$PROJECT_DIR$/gulptest/css/agentIndex.css" />
-    <entry file="file://$PROJECT_DIR$/gulptest/js/put.js" />
-    <entry file="file://$PROJECT_DIR$/js笔记/gulp/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/react/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/gulp安装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/test2.html" />
-    <entry file="file://$PROJECT_DIR$/gulptest/test2.html" />
-    <entry file="file://$PROJECT_DIR$/gulptest/testHtml.html" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/testHtml.html" />
-    <entry file="file://$PROJECT_DIR$/gulptest/dist/html/gulp安装.html" />
-    <entry file="file://$PROJECT_DIR$/你不知道js/test.html" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js笔记/jquery-3.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="797" column="28" selection-start-line="797" selection-start-column="28" selection-end-line="797" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第三章_函数作用域和块作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js笔记/cookie操作.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js笔记/muiapp内部打开外链.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js笔记/删除数字指定位数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulptest/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/你不知道js/上卷/第一章_作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
