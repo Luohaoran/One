@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getName(params) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log(params);
+                resolve('tony')
+            }, 2000)
+        })
+    }
+
+    function getId(params) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log(params);
+                resolve('123')
+            }, 3000)
+        })
+    }
+
+    (async () => {//串行
+        console.time('串行用时');
+        await getName('串行getName');
+        await getId('串行getId');
+        console.timeEnd('串行用时');
+    })();
+    (async () => {//并行
+        console.time('并行用时');
+        let namePromise = getName('并行getName');
+        let idPromise = getId('并行getId');
+        await namePromise;
+        await idPromise;
+        console.timeEnd('并行用时');
+    })();
+
+</script>
+</body>
+</html>

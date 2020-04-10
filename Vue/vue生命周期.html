@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
-beforeCreate     创建前状态
-created              创建完毕状态
-beforeMount    挂载前状态
-mounted           挂载结束状态
-beforeUpdate   更新前状态
-updated            更新完成状态
-beforeDestory  销毁前状态
-destroyed         销毁完成状态
+
+<div id="app">
+    <p>{{ message }}</p>
+    <button @click="add($event)" :disabled="disabled">更新</button>
+</div>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message : "xuxiao is boy",
+            disabled:false,
+        },
+        beforeCreate () {
+            console.group('beforeCreate 创建前状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        created () {
+            console.group('created 创建完毕状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        beforeMount () {
+            console.group('beforeMount 挂载前状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        mounted () {
+            console.group('mounted 挂载结束状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        beforeUpdate () {
+            console.group('beforeUpdate 更新前状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        updated () {
+            console.group('updated 更新完成状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        beforeDestroy () {
+            console.group('beforeDestroy 销毁前状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        destroyed () {
+            console.group('destroyed 销毁完成状态===============》');
+            console.log("%c%s", "color:red" , "el     : " ); //undefined
+            console.log(this.$el); //undefined
+            console.log("%c%s", "color:red","message: " );
+            console.log( this.message)
+        },
+        methods: {
+            add(e){
+                this.disabled=true;
+            }
+        }
+    })
+</script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const superActions=()=>{
+        const functionA = ()=>console.log("functionA");
+        const functionB = ()=>console.log("functionB");
+        const functionC = ()=>console.log("functionC");
+        return ([
+            [/^guest_[1-4]$/,functionA],
+            [/^guest_5$/,functionB],
+            [/^guest_.*$/,functionC]
+        ])
+    };
+
+    const superBthClick = (indentity,status)=>{
+        let action = [...superActions()].filter(([key,value])=>{
+            return key.test(`${indentity}_${status}`)
+        });
+        action.forEach(([key, value])=>{
+            value.call()
+        });
+    };
+    superBthClick('guest',2);
+</script>
+</body>
+</html>
